@@ -15,7 +15,7 @@ public class MSDatabase {
 		    
 			try {
 				
-				 String dbUrl = "jdbc:mysql://localhost:3306/selenium";        
+				 String dbUrl = "jdbc:mysql://192.168.8.118:3306/selenium";        
 				
 				 //Database Username     
 	            String username = "root";   
