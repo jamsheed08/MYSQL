@@ -70,6 +70,5 @@ public class MSDatabase {
 				ResultSetMetaData rsMetaData = rs.getMetaData();
 			    int columnCount = rsMetaData.getColumnCount();
 			    return columnCount;
-	   
 	   }
 }
