@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="239" started-at="2016-04-21T05:06:34Z" finished-at="2016-04-21T05:06:35Z">
+  <suite name="Suite" duration-ms="206" started-at="2016-04-21T07:18:27Z" finished-at="2016-04-21T07:18:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="239" started-at="2016-04-21T05:06:34Z" finished-at="2016-04-21T05:06:35Z">
+    <test name="Test" duration-ms="206" started-at="2016-04-21T07:18:27Z" finished-at="2016-04-21T07:18:27Z">
       <class name="jdbcConnect.SQLConnector">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jdbcConnect.SQLConnector@c221d7]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2016-04-21T10:36:34Z" finished-at="2016-04-21T10:36:34Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jdbcConnect.SQLConnector@1fe40d5]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2016-04-21T12:48:27Z" finished-at="2016-04-21T12:48:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getData()[pri:0, instance:jdbcConnect.SQLConnector@c221d7]" name="getData" duration-ms="220" started-at="2016-04-21T10:36:34Z" finished-at="2016-04-21T10:36:35Z">
+        <test-method status="PASS" signature="getData()[pri:0, instance:jdbcConnect.SQLConnector@1fe40d5]" name="getData" duration-ms="185" started-at="2016-04-21T12:48:27Z" finished-at="2016-04-21T12:48:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:jdbcConnect.SQLConnector@c221d7]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-04-21T10:36:35Z" finished-at="2016-04-21T10:36:35Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:jdbcConnect.SQLConnector@1fe40d5]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-04-21T12:48:27Z" finished-at="2016-04-21T12:48:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- jdbcConnect.SQLConnector -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
