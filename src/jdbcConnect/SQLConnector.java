@@ -11,17 +11,21 @@ import org.testng.annotations.AfterTest;
 
 public class SQLConnector {
 	
-  @Test
-  public void getData() throws SQLException, ClassNotFoundException {       
+	@Test
+	public void getData() throws SQLException, ClassNotFoundException {       
 
 		//Create Connection to DB       
 		MSDatabase db = new MSDatabase();
-	   Connection con = 	db.setDbConnection();
-		
+		Connection con = 	db.setDbConnection();
+
 		System.out.println("Connected");
 
 		//Create Statement Object       
 		Statement stmt = con.createStatement();        
+
+		
+		System.out.println("Rows Count : "+db.getRowsCount(con, "emp"));
+		System.out.println("Column Count : "+db.getColumnsCount(con, "emp"));
 		
 		//Query to Execute      
 		String query = "select * from emp;";  
@@ -38,14 +42,14 @@ public class SQLConnector {
 		// closing DB Connection       
 		con.close();            
 	}
-    @BeforeMethod
-  public void beforeMethod() {
-	 // System.out.println("Before Method");
-  }
+	@BeforeMethod
+	public void beforeMethod() {
+		// System.out.println("Before Method");
+	}
 
-  @AfterTest
-  public void afterTest() {
-	 // System.out.println("After Test");
-  }
+	@AfterTest
+	public void afterTest() {
+		// System.out.println("After Test");
+	}
 
 }

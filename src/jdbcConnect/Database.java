@@ -222,16 +222,7 @@ public abstract class Database {
 			// TODO Auto-generated catch block
 			throw new RuntimeException(e);
 		}
-	   
    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
+	
 	
 }
