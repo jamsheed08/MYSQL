@@ -2,8 +2,8 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="C:/Users/rajesh/git/MYSQL/lib/com.mysql.jdbc_5.1.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/rajesh/git/MYSQL/lib/jcommander-1.29.jar"/>
-	<classpathentry kind="lib" path="C:/Users/rajesh/git/MYSQL/lib/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="D:/GitProject/MYSQL.git/lib/com.mysql.jdbc_5.1.5.jar"/>
+	<classpathentry kind="lib" path="D:/GitProject/MYSQL.git/lib/jcommander-1.29.jar"/>
+	<classpathentry kind="lib" path="D:/GitProject/MYSQL.git/lib/testng-6.8.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
